@@ -1,0 +1,1 @@
+ALTER TABLE `imoveis` ADD `tipologia` varchar(20);

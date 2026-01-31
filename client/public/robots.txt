@@ -1,0 +1,26 @@
+# Robots.txt para Portal de Aluguéis
+
+User-agent: *
+Allow: /
+Allow: /imovel/
+Allow: /imoveis
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://portal-aluguel.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+Request-rate: 1/10s
