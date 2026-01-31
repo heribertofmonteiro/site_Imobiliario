@@ -13,6 +13,7 @@ import AdminPanel from "./pages/AdminPanel";
 import Analytics from "./pages/Analytics";
 import Comparar from "./pages/Comparar";
 import Blog from "./pages/Blog";
+import Login from "./pages/Login";
 import SmartAgent from "./components/SmartAgent";
 
 import { ROUTES } from "./lib/routes";
@@ -27,6 +28,7 @@ function Router() {
       <Route path={ROUTES.admin} component={AdminPanel} />
       <Route path={ROUTES.analytics} component={Analytics} />
       <Route path={ROUTES.blog} component={Blog} />
+      <Route path={ROUTES.login} component={Login} />
       <Route path={ROUTES.notFound} component={NotFound} />
       <Route component={NotFound} />
     </Switch>

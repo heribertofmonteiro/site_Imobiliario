@@ -10,6 +10,7 @@ export const ROUTES = {
     admin: "/admin",
     analytics: "/analytics",
     blog: "/blog",
+    login: "/login",
     notFound: "/404",
 } as const;
 

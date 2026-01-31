@@ -49,10 +49,10 @@ Este documento consolida todas as sugestões de funcionalidades, UX, filtros, te
 - Footer moderno com colunas organizadas e links sociais.
 
 ## 5. Tecnologias Recomendadas
-- **Frontend:** vue, Vite, Tailwind CSS,Typescript.
+- **Frontend:** vue , Vite, Tailwind CSS,Typescript.
 - **Animações:** Framer Motion.
 - **Ícones:** Lucide Icons.
-- **Backend/API:** laravel 12
+- **Backend/API:** Node.js com Express e tRPC
 - **Mapas:** Google Maps API ou Leaflet.
 - **Banco de dados:** MySQL.
 - **Integração futura:** Agentes digitais para notificações, sugestões e busca inteligente.

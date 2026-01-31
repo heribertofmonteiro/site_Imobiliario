@@ -105,6 +105,12 @@ export default function Home() {
             >
               Sobre
             </Link>
+            <Link
+              href="/blog"
+              className="text-sm font-semibold text-gray-500 hover:text-accent transition-colors"
+            >
+              Blog
+            </Link>
             <div className="relative">
               <Button
                 variant="ghost"
@@ -115,6 +121,11 @@ export default function Home() {
                 <span className="absolute top-2 right-2 w-2 h-2 bg-accent rounded-full border-2 border-white" />
               </Button>
             </div>
+            <Link href="/login">
+              <Button variant="ghost" className="text-sm font-black uppercase tracking-widest text-primary hover:text-accent">
+                Gestão
+              </Button>
+            </Link>
             <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-6">
               Anunciar
             </Button>
